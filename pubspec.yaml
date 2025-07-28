@@ -1,7 +1,7 @@
 name: hospital_management
-description: "A new Flutter project."
+description: "A comprehensive Healthcare Appointment Booking Mobile App built with Flutter, GetX, and Sqflite."
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: ^3.7.2
@@ -9,6 +9,27 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  # State Management
+  get: ^4.6.6
+  
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.8.3
+  
+  # UI/UX
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  
+  # HTTP (for future API integration)
+  http: ^1.1.2
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +38,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
